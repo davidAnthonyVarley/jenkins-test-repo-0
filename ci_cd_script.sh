@@ -15,7 +15,9 @@ echo "num_tests: $NUMBER_OF_TESTS"
 
 
 if [ "$successes" = "$num_tests" ]; then
-    echo "All tests passed!"
+    echo "All tests passed! Merge with main!"
+    ./merge_with_main.sh
+
 else
     echo "Not all tests passed"
 fi

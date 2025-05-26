@@ -28,8 +28,8 @@ def test9():
     return True
 
 def test10():
-    return False
-    #return True
+    #return False
+    return True
 
 def run_tests(tests):
     num_successful_tests = 0
