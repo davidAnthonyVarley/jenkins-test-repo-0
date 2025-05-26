@@ -8,5 +8,6 @@ git merge origin/pre_production -m "merging to production"
 git push origin main
 
 git switch pre_production
+git pull origin
 
 echo "Back in pre_production branch"
