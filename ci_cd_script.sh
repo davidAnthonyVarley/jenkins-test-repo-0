@@ -5,7 +5,8 @@ echo "Running tests: run_tests.py"
 python3 run_tests.py
 
 
-source .env
+. .env
+#source .env
 num_tests=$NUMBER_OF_TESTS
 successes=$SUCCESSFUL_TESTS
 
