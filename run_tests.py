@@ -28,6 +28,7 @@ def test9():
     return True
 
 def test10():
+    #return False
     return True
 
 def run_tests(tests):
